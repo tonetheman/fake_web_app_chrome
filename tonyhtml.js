@@ -1,7 +1,5 @@
 console.log("tonyhtml.js loaded");
 
-
-
 window.onload = function() {
   var wv = document.getElementById("wv");
   console.log("got wv");
@@ -20,6 +18,8 @@ window.onload = function() {
     }
   ]);
   */
+  /*
+  // this works when run here
   var id = "gihefhgcfelceogbkmhcffhlnadljppe";
   chrome.runtime.sendMessage(id,
     {getTargetData: true}, function(resp) {
@@ -27,6 +27,7 @@ window.onload = function() {
       console.log(resp);
 
     });
+    */
 }
 
 
