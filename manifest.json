@@ -12,5 +12,8 @@
     "webview",
     "fullscreen",
     "alwaysOnTopWindows",
-    "browser"]
+    "browser"],
+    "externally_connectable": {
+      "matches": ["*://p-p.me/*"]
+    }
 }
