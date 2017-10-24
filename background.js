@@ -14,3 +14,8 @@ chrome.runtime.onMessage.addListener(
     if (request.greeting == "hello")
       sendResponse({farewell: "goodbye"});
   });
+
+
+chrome.app.runtime.onLaunched.addListener(function(launchData) {
+    chrome.app.window.create("tony.html");
+});
